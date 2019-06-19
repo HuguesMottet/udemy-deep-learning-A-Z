@@ -59,4 +59,5 @@ classifier.fit_generator(
         validation_steps=63,  # 2000/32
 )
 
+print(train_set.class_indices)
 classifier.save('chapter-2-CNN/weight.h5')
